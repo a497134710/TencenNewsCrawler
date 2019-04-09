@@ -1,1 +1,0 @@
-import reclass Solution:    def isMatch(self, s: str, p: str) -> bool:        if re.match(p+"$",s):            print('true')            return True        else:            print('false')            return False
