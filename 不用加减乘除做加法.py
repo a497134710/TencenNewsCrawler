@@ -1,0 +1,1 @@
+'''写一个函数,求2个整数之和,要求在函数体内不得使用+ - * / 四则运算'''class Solution:    def numSum(self,a,b):       passprint(ord('1') ^ 2  )

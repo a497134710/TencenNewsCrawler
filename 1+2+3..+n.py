@@ -1,0 +1,1 @@
+'''求1+2+3+..+n,要求不能使用乘除法,for,while,if,else,switch,case等关键字以及条件判断语句(A?B:C)'''class Solution:    def Sum_solution(self,n):        def Zero(n):            return 0        dic = {True:self.Sum_solution,False:Zero}        return  n +  dic[not not n](n-1)print(Solution().Sum_solution(10))
